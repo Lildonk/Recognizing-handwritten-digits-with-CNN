@@ -101,4 +101,6 @@ print('Rate of success:',(np.equal(np.argmax(h_theta(images_test,W,B),axis=0),y_
 for i in range(10):
     w = W[i,:].reshape(28, 28)
     plot_digit(w)
-
+    
+    
+# Part of the code was given by Professor Levi Santana de Lelis in CMPUT 340 LAB4.
